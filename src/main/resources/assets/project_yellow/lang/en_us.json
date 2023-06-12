@@ -1,0 +1,11 @@
+{
+  "item.project_yellow.athame": "Athame",
+
+  "item.project_yellow.peridot": "Peridot",
+  "item.project_yellow.ruby": "Ruby",
+  "item.project_yellow.sapphire": "Sapphire",
+
+  "itemGroup.project_yellow": "Project Yellow",
+
+  "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"
+}
