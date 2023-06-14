@@ -2,6 +2,7 @@ package lemon_juice.project_yellow;
 
 import lemon_juice.project_yellow.creativetab.ModCreativeTab;
 import lemon_juice.project_yellow.item.ModItems;
+import lemon_juice.project_yellow.tags.ModTags;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -26,6 +27,9 @@ public class ProjectYellow {
         // Register Creative Tab
         ModCreativeTab.register(modEventBus);
         modEventBus.addListener(ModCreativeTab::registerTabs);
+
+        // Register Tags
+        ModTags.init();
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,6 +1,6 @@
 package lemon_juice.project_yellow.item.custom.tiers;
 
-import lemon_juice.project_yellow.item.ModItems;
+import lemon_juice.project_yellow.tags.ModTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -19,9 +19,9 @@ public class ModTiers {
     public static final ForgeTier ATHAME_TIER = new ForgeTier(0, 250, 2.0F, 0.0F, 15, BlockTags.SWORD_EFFICIENT, () -> Ingredient.of(Items.IRON_INGOT));
 
     // Modded Gem Tiers
-    public static final ForgeTier PERIDOT_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.PERIDOT.get())); // Debate switching this over to tag so LemonCore's tags can be used
-    public static final ForgeTier RUBY_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.RUBY.get())); // Debate switching this over to tag so LemonCore's tags can be used
-    public static final ForgeTier SAPPHIRE_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.SAPPHIRE.get())); // Debate switching this over to tag so LemonCore's tags can be used
+    public static final ForgeTier PERIDOT_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModTags.Items.GEMS_PERIDOT));
+    public static final ForgeTier RUBY_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModTags.Items.GEMS_RUBY));
+    public static final ForgeTier SAPPHIRE_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModTags.Items.GEMS_SAPPHIRE));
 
     // Vanilla Gem Tiers
     public static final ForgeTier AMETHYST_TIER = new ForgeTier(2, 191, 8.0F, 3.0F, 14, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD));

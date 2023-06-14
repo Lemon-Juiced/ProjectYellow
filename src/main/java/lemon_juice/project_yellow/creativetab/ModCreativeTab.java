@@ -26,6 +26,12 @@ public class ModCreativeTab {
             event.accept(ModItems.PERIDOT.get());
             event.accept(ModItems.RUBY.get());
             event.accept(ModItems.SAPPHIRE.get());
+
+            event.accept(ModItems.PERIDOT_SWORD.get());
+            event.accept(ModItems.PERIDOT_SHOVEL.get());
+            event.accept(ModItems.PERIDOT_PICKAXE.get());
+            event.accept(ModItems.PERIDOT_AXE.get());
+            event.accept(ModItems.PERIDOT_HOE.get());
         }
     }
 

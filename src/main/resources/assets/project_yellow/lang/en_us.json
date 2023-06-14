@@ -5,6 +5,12 @@
   "item.project_yellow.ruby": "Ruby",
   "item.project_yellow.sapphire": "Sapphire",
 
+  "item.project_yellow.peridot_sword": "Peridot Sword",
+  "item.project_yellow.peridot_shovel": "Peridot Shovel",
+  "item.project_yellow.peridot_pickaxe": "Peridot Pickaxe",
+  "item.project_yellow.peridot_axe": "Peridot Axe",
+  "item.project_yellow.peridot_hoe": "Peridot Hoe",
+
   "itemGroup.project_yellow": "Project Yellow",
 
   "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"
