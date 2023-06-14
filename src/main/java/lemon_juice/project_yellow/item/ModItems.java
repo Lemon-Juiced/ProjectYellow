@@ -1,7 +1,6 @@
 package lemon_juice.project_yellow.item;
 
 import lemon_juice.project_yellow.ProjectYellow;
-import lemon_juice.project_yellow.item.custom.AthameItem;
 import lemon_juice.project_yellow.item.custom.tiers.ModArmorMaterials;
 import lemon_juice.project_yellow.item.custom.tiers.ModTiers;
 import lemon_juice.project_yellow.item.custom.tools.*;
