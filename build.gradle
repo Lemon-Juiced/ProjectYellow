@@ -155,13 +155,13 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4581130")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4585702")
 
     // JEI
-    compileOnly fg.deobf("mezz.jei:jei-1.20-common-api:14.0.0.5")
-    compileOnly fg.deobf("mezz.jei:jei-1.20-forge-api:14.0.0.5")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.20-common:14.0.0.5")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.20-forge:14.0.0.5")
+    //compileOnly fg.deobf("mezz.jei:jei-1.20-common-api:14.0.0.5")
+    //compileOnly fg.deobf("mezz.jei:jei-1.20-forge-api:14.0.0.5")
+    //runtimeOnly fg.deobf("mezz.jei:jei-1.20-common:14.0.0.5")
+    //runtimeOnly fg.deobf("mezz.jei:jei-1.20-forge:14.0.0.5")
 
 }
 
