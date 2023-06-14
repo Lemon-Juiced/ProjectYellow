@@ -15,10 +15,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> ATHAME = ITEMS.register("athame", () -> new AthameItem(ModTiers.ATHAME_TIER, new Item.Properties()));
 
-    public static final RegistryObject<Item> PERIDOT = ITEMS.register("peridot", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> PERIDOT_SWORD = ITEMS.register("peridot_sword", () -> new ModSwordItem(ModTiers.PERIDOT_TIER, new Item.Properties()));
     public static final RegistryObject<Item> PERIDOT_SHOVEL = ITEMS.register("peridot_shovel", () -> new ModShovelItem(ModTiers.PERIDOT_TIER, new Item.Properties()));
     public static final RegistryObject<Item> PERIDOT_PICKAXE = ITEMS.register("peridot_pickaxe", () -> new ModPickaxeItem(ModTiers.PERIDOT_TIER, new Item.Properties()));
