@@ -1,20 +1,23 @@
 package lemon_juice.project_yellow.item.custom.tools;
 
 import com.google.common.collect.Sets;
+import lemon_juice.project_yellow.item.ModItems;
+import lemon_juice.project_yellow.tags.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.DiggerItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 /* This file was partially borrowed and modified from Blue Power
@@ -35,12 +38,20 @@ import java.util.Set;
 
 public class SickleItem extends DiggerItem {
     private Item repairItem;
+    private String repairItemTag;
 
     private static final Set sickleEffectiveBlocks = Sets.newHashSet(ItemTags.LEAVES, BlockTags.CROPS, Blocks.NETHER_WART, Blocks.RED_MUSHROOM, Blocks.BROWN_MUSHROOM, Blocks.SUGAR_CANE, Blocks.TALL_GRASS, Blocks.VINE, Blocks.LILY_PAD, BlockTags.SMALL_FLOWERS);
 
     public SickleItem(Tier itemTier, Item repairItem) {
         super(2,-1.4F, itemTier, BlockTags.MINEABLE_WITH_HOE, new Properties());
         this.repairItem = repairItem;
+        this.repairItemTag = null;
+    }
+
+    public SickleItem(Tier itemTier, String repairItemTag) {
+        super(2,-1.4F, itemTier, BlockTags.MINEABLE_WITH_HOE, new Properties());
+        this.repairItem = null;
+        this.repairItemTag = repairItemTag;
     }
 
     @Override
@@ -107,6 +118,17 @@ public class SickleItem extends DiggerItem {
 
     @Override
     public boolean isValidRepairItem(ItemStack itemStack1, ItemStack itemStack2) {
+        if(repairItem == null){
+            if(repairItemTag.equals("wood")){
+                if(Items.WOODEN_AXE.isValidRepairItem(itemStack1, itemStack2)) return true;
+            }
+            if(repairItemTag.equals("cobblestone")){
+                if(Items.STONE_AXE.isValidRepairItem(itemStack1, itemStack2)) return true;
+            }
+            if(repairItemTag.equals("peridot")){
+                if(ModItems.PERIDOT_AXE.get().isValidRepairItem(itemStack1, itemStack2)) return true;
+            }
+        }
         return ((itemStack1.getItem() == this || itemStack2.getItem() == this) && (itemStack1.getItem() == this.repairItem || itemStack2.getItem() == this.repairItem));
     }
 }

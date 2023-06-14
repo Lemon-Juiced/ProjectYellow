@@ -12,6 +12,14 @@
   "item.project_yellow.peridot_leggings": "Peridot Leggings",
   "item.project_yellow.peridot_boots": "Peridot Boots",
 
+  "item.project_yellow.wooden_sickle": "Wooden Sickle",
+  "item.project_yellow.stone_sickle": "Stone Sickle",
+  "item.project_yellow.iron_sickle": "Iron Sickle",
+  "item.project_yellow.golden_sickle": "Golden Sickle",
+  "item.project_yellow.diamond_sickle": "Diamond Sickle",
+  "item.project_yellow.netherite_sickle": "Netherite Sickle",
+  "item.project_yellow.peridot_sickle": "Peridot Sickle",
+
   "itemGroup.project_yellow": "Project Yellow",
 
   "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"

@@ -33,9 +33,16 @@ public class ModCreativeTab {
             event.accept(ModItems.PERIDOT_CHESTPLATE.get());
             event.accept(ModItems.PERIDOT_LEGGINGS.get());
             event.accept(ModItems.PERIDOT_BOOTS.get());
+
+            event.accept(ModItems.WOODEN_SICKLE.get());
+            event.accept(ModItems.STONE_SICKLE.get());
+            event.accept(ModItems.IRON_SICKLE.get());
+            event.accept(ModItems.GOLDEN_SICKLE.get());
+            event.accept(ModItems.DIAMOND_SICKLE.get());
+            event.accept(ModItems.NETHERITE_SICKLE.get());
+            event.accept(ModItems.PERIDOT_SICKLE.get());
         }
     }
-
 
     /******************************** Registry ********************************/
     public static void register(IEventBus eventBus){
