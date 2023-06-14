@@ -28,6 +28,11 @@ public class ModCreativeTab {
             event.accept(ModItems.PERIDOT_PICKAXE.get());
             event.accept(ModItems.PERIDOT_AXE.get());
             event.accept(ModItems.PERIDOT_HOE.get());
+
+            event.accept(ModItems.PERIDOT_HELMET.get());
+            event.accept(ModItems.PERIDOT_CHESTPLATE.get());
+            event.accept(ModItems.PERIDOT_LEGGINGS.get());
+            event.accept(ModItems.PERIDOT_BOOTS.get());
         }
     }
 

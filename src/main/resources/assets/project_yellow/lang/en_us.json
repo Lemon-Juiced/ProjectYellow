@@ -7,6 +7,11 @@
   "item.project_yellow.peridot_axe": "Peridot Axe",
   "item.project_yellow.peridot_hoe": "Peridot Hoe",
 
+  "item.project_yellow.peridot_helmet": "Peridot Helmet",
+  "item.project_yellow.peridot_chestplate": "Peridot Chestplate",
+  "item.project_yellow.peridot_leggings": "Peridot Leggings",
+  "item.project_yellow.peridot_boots": "Peridot Boots",
+
   "itemGroup.project_yellow": "Project Yellow",
 
   "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"

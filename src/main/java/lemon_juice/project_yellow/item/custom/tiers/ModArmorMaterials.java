@@ -1,12 +1,15 @@
 package lemon_juice.project_yellow.item.custom.tiers;
 
 import lemon_juice.project_yellow.ProjectYellow;
+import lemon_juice.project_yellow.tags.ModTags;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.EnumMap;
@@ -72,7 +75,46 @@ public enum ModArmorMaterials implements ArmorMaterial {
     });
     */
 
-    ;// This is for the end of the types that will be added
+    PERIDOT("peridot", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (protectionFunctionForType) -> {
+        protectionFunctionForType.put(ArmorItem.Type.BOOTS, 2);
+        protectionFunctionForType.put(ArmorItem.Type.LEGGINGS, 5);
+        protectionFunctionForType.put(ArmorItem.Type.CHESTPLATE, 6);
+        protectionFunctionForType.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+        return Ingredient.of(ModTags.Items.GEMS_PERIDOT);
+    }),
+    RUBY("ruby", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (protectionFunctionForType) -> {
+        protectionFunctionForType.put(ArmorItem.Type.BOOTS, 2);
+        protectionFunctionForType.put(ArmorItem.Type.LEGGINGS, 5);
+        protectionFunctionForType.put(ArmorItem.Type.CHESTPLATE, 6);
+        protectionFunctionForType.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+        return Ingredient.of(ModTags.Items.GEMS_RUBY);
+    }),
+    SAPPHIRE("sapphire", 20, Util.make(new EnumMap<>(ArmorItem.Type.class), (protectionFunctionForType) -> {
+        protectionFunctionForType.put(ArmorItem.Type.BOOTS, 2);
+        protectionFunctionForType.put(ArmorItem.Type.LEGGINGS, 5);
+        protectionFunctionForType.put(ArmorItem.Type.CHESTPLATE, 6);
+        protectionFunctionForType.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+        return Ingredient.of(ModTags.Items.GEMS_SAPPHIRE);
+    }),
+    AMETHYST("amethyst", 15, Util.make(new EnumMap<>(ArmorItem.Type.class), (protectionFunctionForType) -> {
+        protectionFunctionForType.put(ArmorItem.Type.BOOTS, 1);
+        protectionFunctionForType.put(ArmorItem.Type.LEGGINGS, 5);
+        protectionFunctionForType.put(ArmorItem.Type.CHESTPLATE, 5);
+        protectionFunctionForType.put(ArmorItem.Type.HELMET, 2);
+    }), 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+        return Ingredient.of(Items.AMETHYST_SHARD);
+    }),
+    EMERALD("emerald", 25, Util.make(new EnumMap<>(ArmorItem.Type.class), (protectionFunctionForType) -> {
+        protectionFunctionForType.put(ArmorItem.Type.BOOTS, 4);
+        protectionFunctionForType.put(ArmorItem.Type.LEGGINGS, 7);
+        protectionFunctionForType.put(ArmorItem.Type.CHESTPLATE, 9);
+        protectionFunctionForType.put(ArmorItem.Type.HELMET, 4);
+    }), 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.0F, () -> {
+        return Ingredient.of(Items.EMERALD);
+    });
 
     public static final StringRepresentable.EnumCodec<net.minecraft.world.item.ArmorMaterials> CODEC = StringRepresentable.fromEnum(net.minecraft.world.item.ArmorMaterials::values);
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (protectionFunctionForType) -> {
