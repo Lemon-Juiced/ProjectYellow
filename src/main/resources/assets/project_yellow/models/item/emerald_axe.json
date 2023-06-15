@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "project_yellow:item/emerald_axe"
+  }
+}

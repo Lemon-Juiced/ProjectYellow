@@ -128,6 +128,12 @@ public class SickleItem extends DiggerItem {
             if(repairItemTag.equals("peridot")){
                 if(ModItems.PERIDOT_AXE.get().isValidRepairItem(itemStack1, itemStack2)) return true;
             }
+            if(repairItemTag.equals("ruby")){
+                if(ModItems.RUBY_AXE.get().isValidRepairItem(itemStack1, itemStack2)) return true;
+            }
+            if(repairItemTag.equals("sapphire")){
+                if(ModItems.SAPPHIRE_AXE.get().isValidRepairItem(itemStack1, itemStack2)) return true;
+            }
         }
         return ((itemStack1.getItem() == this || itemStack2.getItem() == this) && (itemStack1.getItem() == this.repairItem || itemStack2.getItem() == this.repairItem));
     }

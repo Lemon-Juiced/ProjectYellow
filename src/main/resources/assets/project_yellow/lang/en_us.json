@@ -1,6 +1,28 @@
 {
   "item.project_yellow.athame": "Athame",
 
+  "item.project_yellow.amethyst_sword": "Amethyst Sword",
+  "item.project_yellow.amethyst_shovel": "Amethyst Shovel",
+  "item.project_yellow.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.project_yellow.amethyst_axe": "Amethyst Axe",
+  "item.project_yellow.amethyst_hoe": "Amethyst Hoe",
+
+  "item.project_yellow.amethyst_helmet": "Amethyst Helmet",
+  "item.project_yellow.amethyst_chestplate": "Amethyst Chestplate",
+  "item.project_yellow.amethyst_leggings": "Amethyst Leggings",
+  "item.project_yellow.amethyst_boots": "Amethyst Boots",
+
+  "item.project_yellow.emerald_sword": "Emerald Sword",
+  "item.project_yellow.emerald_shovel": "Emerald Shovel",
+  "item.project_yellow.emerald_pickaxe": "Emerald Pickaxe",
+  "item.project_yellow.emerald_axe": "Emerald Axe",
+  "item.project_yellow.emerald_hoe": "Emerald Hoe",
+
+  "item.project_yellow.emerald_helmet": "Emerald Helmet",
+  "item.project_yellow.emerald_chestplate": "Emerald Chestplate",
+  "item.project_yellow.emerald_leggings": "Emerald Leggings",
+  "item.project_yellow.emerald_boots": "Emerald Boots",
+
   "item.project_yellow.peridot_sword": "Peridot Sword",
   "item.project_yellow.peridot_shovel": "Peridot Shovel",
   "item.project_yellow.peridot_pickaxe": "Peridot Pickaxe",
@@ -12,13 +34,39 @@
   "item.project_yellow.peridot_leggings": "Peridot Leggings",
   "item.project_yellow.peridot_boots": "Peridot Boots",
 
+  "item.project_yellow.ruby_sword": "Ruby Sword",
+  "item.project_yellow.ruby_shovel": "Ruby Shovel",
+  "item.project_yellow.ruby_pickaxe": "Ruby Pickaxe",
+  "item.project_yellow.ruby_axe": "Ruby Axe",
+  "item.project_yellow.ruby_hoe": "Ruby Hoe",
+
+  "item.project_yellow.ruby_helmet": "Ruby Helmet",
+  "item.project_yellow.ruby_chestplate": "Ruby Chestplate",
+  "item.project_yellow.ruby_leggings": "Ruby Leggings",
+  "item.project_yellow.ruby_boots": "Ruby Boots",
+
+  "item.project_yellow.sapphire_sword": "Sapphire Sword",
+  "item.project_yellow.sapphire_shovel": "Sapphire Shovel",
+  "item.project_yellow.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.project_yellow.sapphire_axe": "Sapphire Axe",
+  "item.project_yellow.sapphire_hoe": "Sapphire Hoe",
+
+  "item.project_yellow.sapphire_helmet": "Sapphire Helmet",
+  "item.project_yellow.sapphire_chestplate": "Sapphire Chestplate",
+  "item.project_yellow.sapphire_leggings": "Sapphire Leggings",
+  "item.project_yellow.sapphire_boots": "Sapphire Boots",
+
   "item.project_yellow.wooden_sickle": "Wooden Sickle",
   "item.project_yellow.stone_sickle": "Stone Sickle",
   "item.project_yellow.iron_sickle": "Iron Sickle",
   "item.project_yellow.golden_sickle": "Golden Sickle",
   "item.project_yellow.diamond_sickle": "Diamond Sickle",
   "item.project_yellow.netherite_sickle": "Netherite Sickle",
+  "item.project_yellow.amethyst_sickle": "Amethyst Sickle",
+  "item.project_yellow.emerald_sickle": "Emerald Sickle",
   "item.project_yellow.peridot_sickle": "Peridot Sickle",
+  "item.project_yellow.ruby_sickle": "Ruby Sickle",
+  "item.project_yellow.sapphire_sickle": "Sapphire Sickle",
 
   "itemGroup.project_yellow": "Project Yellow",
 

@@ -24,7 +24,7 @@ public class ModTiers {
     public static final ForgeTier SAPPHIRE_TIER = new ForgeTier(2, 906, 7.0F, 2.5F, 12, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModTags.Items.GEMS_SAPPHIRE));
 
     // Vanilla Gem Tiers
-    public static final ForgeTier AMETHYST_TIER = new ForgeTier(2, 191, 8.0F, 3.0F, 14, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD));
+    public static final ForgeTier AMETHYST_TIER = new ForgeTier(2, 191, 8.0F, 2.0F, 14, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD));
     public static final ForgeTier EMERALD_TIER = new ForgeTier(3, 906, 6.0F, 3.0F, 5, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.EMERALD));
 
 }
