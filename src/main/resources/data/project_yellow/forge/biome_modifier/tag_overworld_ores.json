@@ -2,6 +2,7 @@
   "type": "forge:add_features",
   "biomes": "#is_overworld",
   "features": [
+    "project_yellow:marble",
     "project_yellow:peridot_ore",
     "project_yellow:deepslate_peridot_ore",
     "project_yellow:ruby_ore",
