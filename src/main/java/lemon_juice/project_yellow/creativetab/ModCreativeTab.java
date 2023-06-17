@@ -1,6 +1,7 @@
 package lemon_juice.project_yellow.creativetab;
 
 import lemon_juice.project_yellow.ProjectYellow;
+import lemon_juice.project_yellow.block.ModBlocks;
 import lemon_juice.project_yellow.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -89,6 +90,13 @@ public class ModCreativeTab {
             event.accept(ModItems.PERIDOT_SICKLE.get());
             event.accept(ModItems.RUBY_SICKLE.get());
             event.accept(ModItems.SAPPHIRE_SICKLE.get());
+
+            event.accept(ModBlocks.PERIDOT_ORE.get());
+            event.accept(ModBlocks.DEEPSLATE_PERIDOT_ORE.get());
+            event.accept(ModBlocks.RUBY_ORE.get());
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+            event.accept(ModBlocks.SAPPHIRE_ORE.get());
+            event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
         }
     }
 

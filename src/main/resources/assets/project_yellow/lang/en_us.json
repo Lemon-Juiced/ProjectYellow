@@ -68,6 +68,13 @@
   "item.project_yellow.ruby_sickle": "Ruby Sickle",
   "item.project_yellow.sapphire_sickle": "Sapphire Sickle",
 
+  "block.project_yellow.peridot_ore": "Peridot Ore",
+  "block.project_yellow.deepslate_peridot_ore": "Deepslate Peridot Ore",
+  "block.project_yellow.ruby_ore": "Ruby Ore",
+  "block.project_yellow.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.project_yellow.sapphire_ore": "Sapphire Ore",
+  "block.project_yellow.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
   "itemGroup.project_yellow": "Project Yellow",
 
   "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"

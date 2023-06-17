@@ -1,5 +1,6 @@
 package lemon_juice.project_yellow;
 
+import lemon_juice.project_yellow.block.ModBlocks;
 import lemon_juice.project_yellow.creativetab.ModCreativeTab;
 import lemon_juice.project_yellow.item.ModItems;
 import lemon_juice.project_yellow.tags.ModTags;
@@ -22,7 +23,7 @@ public class ProjectYellow {
 
         // Register Items & Blocks
         ModItems.register(modEventBus);
-        //ModBlocks.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register Creative Tab
         ModCreativeTab.register(modEventBus);

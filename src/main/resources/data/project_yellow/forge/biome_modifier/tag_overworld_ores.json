@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": [
+    "project_yellow:peridot_ore",
+    "project_yellow:deepslate_peridot_ore",
+    "project_yellow:ruby_ore",
+    "project_yellow:deepslate_ruby_ore",
+    "project_yellow:sapphire_ore",
+    "project_yellow:deepslate_sapphire_ore"
+  ],
+  "step": "underground_ores"
+}

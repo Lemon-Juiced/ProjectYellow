@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "project_yellow:peridot_ore",
+    "project_yellow:deepslate_peridot_ore",
+    "project_yellow:ruby_ore",
+    "project_yellow:deepslate_ruby_ore",
+    "project_yellow:sapphire_ore",
+    "project_yellow:deepslate_sapphire_ore"
+  ]
+}
