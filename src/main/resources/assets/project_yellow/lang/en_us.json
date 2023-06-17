@@ -100,10 +100,10 @@
   "block.project_yellow.marble_bricks_stairs": "Marble Bricks Stairs",
   "block.project_yellow.marble_bricks_wall": "Marble Bricks Wall",
 
-  "block.project_yellow.marble_biotite": "Cobbled Marble",
-  "block.project_yellow.marble_biotite_slab": "Cobbled Marble Slab",
-  "block.project_yellow.marble_biotite_stairs": "Cobbled Marble Stairs",
-  "block.project_yellow.marble_biotite_wall": "Cobbled Marble Wall",
+  "block.project_yellow.cobbled_marble": "Cobbled Marble",
+  "block.project_yellow.cobbled_marble_slab": "Cobbled Marble Slab",
+  "block.project_yellow.cobbled_marble_stairs": "Cobbled Marble Stairs",
+  "block.project_yellow.cobbled_marble_wall": "Cobbled Marble Wall",
 
   "itemGroup.project_yellow": "Project Yellow",
 
