@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "project_yellow:block/cobbled_marble",
+    "side": "project_yellow:block/cobbled_marble",
+    "top": "project_yellow:block/cobbled_marble"
+  }
+}
