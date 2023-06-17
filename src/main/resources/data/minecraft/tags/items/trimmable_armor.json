@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "project_yellow:amethyst_helmet",
+    "project_yellow:amethyst_chestplate",
+    "project_yellow:amethyst_leggings",
+    "project_yellow:amethyst_boots",
+    "project_yellow:emerald_helmet",
+    "project_yellow:emerald_chestplate",
+    "project_yellow:emerald_leggings",
+    "project_yellow:emerald_boots",
+    "project_yellow:peridot_helmet",
+    "project_yellow:peridot_chestplate",
+    "project_yellow:peridot_leggings",
+    "project_yellow:peridot_boots",
+    "project_yellow:ruby_helmet",
+    "project_yellow:ruby_chestplate",
+    "project_yellow:ruby_leggings",
+    "project_yellow:ruby_boots",
+    "project_yellow:sapphire_helmet",
+    "project_yellow:sapphire_chestplate",
+    "project_yellow:sapphire_leggings",
+    "project_yellow:sapphire_boots"
+  ]
+}
