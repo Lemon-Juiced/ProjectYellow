@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "project_yellow:block/biotite_slab"
+    },
+    "type=double": {
+      "model": "project_yellow:block/biotite"
+    },
+    "type=top": {
+      "model": "project_yellow:block/biotite_slab_top"
+    }
+  }
+}
