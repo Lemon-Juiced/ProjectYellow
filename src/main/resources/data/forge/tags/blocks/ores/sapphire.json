@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "better_apatite:deepslate_sapphire_ore",
-    "better_apatite:sapphire_ore"
+    "project_yellow:deepslate_sapphire_ore",
+    "project_yellow:sapphire_ore"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "better_apatite:deepslate_peridot_ore",
-    "better_apatite:peridot_ore"
+    "project_yellow:deepslate_peridot_ore",
+    "project_yellow:peridot_ore"
   ]
 }

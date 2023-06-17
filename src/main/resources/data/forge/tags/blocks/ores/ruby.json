@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "better_apatite:deepslate_ruby_ore",
-    "better_apatite:ruby_ore"
+    "project_yellow:deepslate_ruby_ore",
+    "project_yellow:ruby_ore"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "project_yellow:cobbled_marble"
+  },
+  "result": "project_yellow:marble",
+  "experience": 0.1,
+  "cookingtime": 200
+}

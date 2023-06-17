@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "project_yellow:cobbled_biotite"
+  },
+  "result": "project_yellow:cobbled_biotite_slab",
+  "count": 2
+}

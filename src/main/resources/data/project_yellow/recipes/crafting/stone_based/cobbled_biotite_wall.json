@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "project_yellow:cobbled_biotite"
+    }
+  },
+  "result": {
+    "item": "project_yellow:cobbled_biotite_wall",
+    "count": 6
+  }
+}

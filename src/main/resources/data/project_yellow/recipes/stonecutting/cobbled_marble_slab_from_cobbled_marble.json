@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "project_yellow:cobbled_marble"
+  },
+  "result": "project_yellow:cobbled_marble_slab",
+  "count": 2
+}

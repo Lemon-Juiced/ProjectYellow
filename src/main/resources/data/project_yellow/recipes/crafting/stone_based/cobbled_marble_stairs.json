@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "project_yellow:cobbled_marble"
+    }
+  },
+  "result": {
+    "item": "project_yellow:cobbled_marble_stairs",
+    "count": 4
+  }
+}
