@@ -97,6 +97,36 @@ public class ModCreativeTab {
             event.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
             event.accept(ModBlocks.SAPPHIRE_ORE.get());
             event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+
+            event.accept(ModBlocks.BASALT.get());
+            event.accept(ModBlocks.BASALT_SLAB.get());
+            event.accept(ModBlocks.BASALT_STAIRS.get());
+            event.accept(ModBlocks.BASALT_WALL.get());
+
+            event.accept(ModBlocks.BASALT_BRICKS.get());
+            event.accept(ModBlocks.BASALT_BRICKS_SLAB.get());
+            event.accept(ModBlocks.BASALT_BRICKS_STAIRS.get());
+            event.accept(ModBlocks.BASALT_BRICKS_WALL.get());
+
+            event.accept(ModBlocks.COBBLED_BASALT.get());
+            event.accept(ModBlocks.COBBLED_BASALT_SLAB.get());
+            event.accept(ModBlocks.COBBLED_BASALT_STAIRS.get());
+            event.accept(ModBlocks.COBBLED_BASALT_WALL.get());
+
+            event.accept(ModBlocks.MARBLE.get());
+            event.accept(ModBlocks.MARBLE_SLAB.get());
+            event.accept(ModBlocks.MARBLE_STAIRS.get());
+            event.accept(ModBlocks.MARBLE_WALL.get());
+
+            event.accept(ModBlocks.MARBLE_BRICKS.get());
+            event.accept(ModBlocks.MARBLE_BRICKS_SLAB.get());
+            event.accept(ModBlocks.MARBLE_BRICKS_STAIRS.get());
+            event.accept(ModBlocks.MARBLE_BRICKS_WALL.get());
+
+            event.accept(ModBlocks.COBBLED_MARBLE.get());
+            event.accept(ModBlocks.COBBLED_MARBLE_SLAB.get());
+            event.accept(ModBlocks.COBBLED_MARBLE_STAIRS.get());
+            event.accept(ModBlocks.COBBLED_MARBLE_WALL.get());
         }
     }
 
