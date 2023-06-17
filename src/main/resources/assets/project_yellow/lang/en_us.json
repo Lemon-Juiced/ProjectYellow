@@ -75,6 +75,36 @@
   "block.project_yellow.sapphire_ore": "Sapphire Ore",
   "block.project_yellow.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
+  "block.project_yellow.biotite": "Biotite",
+  "block.project_yellow.biotite_slab": "Biotite Slab",
+  "block.project_yellow.biotite_stairs": "Biotite Stairs",
+  "block.project_yellow.biotite_wall": "Biotite Wall",
+
+  "block.project_yellow.biotite_bricks": "Biotite Bricks",
+  "block.project_yellow.biotite_bricks_slab": "Biotite Bricks Slab",
+  "block.project_yellow.biotite_bricks_stairs": "Biotite Bricks Stairs",
+  "block.project_yellow.biotite_bricks_wall": "Biotite Bricks Wall",
+
+  "block.project_yellow.cobbled_biotite": "Cobbled Biotite",
+  "block.project_yellow.cobbled_biotite_slab": "Cobbled Biotite Slab",
+  "block.project_yellow.cobbled_biotite_stairs": "Cobbled Biotite Stairs",
+  "block.project_yellow.cobbled_biotite_wall": "Cobbled Biotite Wall",
+
+  "block.project_yellow.marble": "Marble",
+  "block.project_yellow.marble_slab": "Marble Slab",
+  "block.project_yellow.marble_stairs": "Marble Stairs",
+  "block.project_yellow.marble_wall": "Marble Wall",
+
+  "block.project_yellow.marble_bricks": "Marble Bricks",
+  "block.project_yellow.marble_bricks_slab": "Marble Bricks Slab",
+  "block.project_yellow.marble_bricks_stairs": "Marble Bricks Stairs",
+  "block.project_yellow.marble_bricks_wall": "Marble Bricks Wall",
+
+  "block.project_yellow.marble_biotite": "Cobbled Marble",
+  "block.project_yellow.marble_biotite_slab": "Cobbled Marble Slab",
+  "block.project_yellow.marble_biotite_stairs": "Cobbled Marble Stairs",
+  "block.project_yellow.marble_biotite_wall": "Cobbled Marble Wall",
+
   "itemGroup.project_yellow": "Project Yellow",
 
   "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"
