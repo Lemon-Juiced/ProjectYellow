@@ -56,7 +56,7 @@
       }
     },
     {
-      "model": "project_yellow:item/amethyst_chestplate_amethyst_darker_trim",
+      "model": "project_yellow:item/amethyst_chestplate_amethyst_trim",
       "predicate": {
         "trim_type": 1.0
       }

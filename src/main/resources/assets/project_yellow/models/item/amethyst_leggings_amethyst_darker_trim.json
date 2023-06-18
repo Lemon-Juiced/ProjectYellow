@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "project_yellow:item/amethyst_leggings",
-    "layer1": "project_yellow:trims/items/leggings_trim_amethyst_darker"
-  }
-}
