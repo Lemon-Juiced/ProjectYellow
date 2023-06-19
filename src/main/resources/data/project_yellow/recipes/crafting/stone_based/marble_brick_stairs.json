@@ -1,16 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "##"
+    "#  ",
+    "## ",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "project_yellow:marble"
+      "item": "project_yellow:marble_bricks"
     }
   },
   "result": {
-    "item": "project_yellow:marble_bricks",
+    "item": "project_yellow:marble_brick_stairs",
     "count": 4
   }
 }

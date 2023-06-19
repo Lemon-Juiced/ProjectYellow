@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "project_yellow:marble_bricks"
-  },
-  "result": "project_yellow:marble_bricks_stairs",
-  "count": 1
-}

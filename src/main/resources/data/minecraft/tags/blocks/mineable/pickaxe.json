@@ -14,9 +14,9 @@
     "project_yellow:biotite_wall",
 
     "project_yellow:biotite_bricks",
-    "project_yellow:biotite_bricks_slab",
-    "project_yellow:biotite_bricks_stairs",
-    "project_yellow:biotite_bricks_wall",
+    "project_yellow:biotite_brick_slab",
+    "project_yellow:biotite_brick_stairs",
+    "project_yellow:biotite_brick_wall",
 
     "project_yellow:cobbled_biotite",
     "project_yellow:cobbled_biotite_slab",
@@ -29,9 +29,9 @@
     "project_yellow:marble_wall",
 
     "project_yellow:marble_bricks",
-    "project_yellow:marble_bricks_slab",
-    "project_yellow:marble_bricks_stairs",
-    "project_yellow:marble_bricks_wall",
+    "project_yellow:marble_brick_slab",
+    "project_yellow:marble_brick_stairs",
+    "project_yellow:marble_brick_wall",
 
     "project_yellow:cobbled_marble",
     "project_yellow:cobbled_marble_slab",

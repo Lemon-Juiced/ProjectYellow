@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "project_yellow:biotite_bricks"
+  },
+  "result": "project_yellow:biotite_brick_stairs",
+  "count": 1
+}

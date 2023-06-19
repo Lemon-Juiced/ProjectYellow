@@ -81,9 +81,9 @@
   "block.project_yellow.biotite_wall": "Biotite Wall",
 
   "block.project_yellow.biotite_bricks": "Biotite Bricks",
-  "block.project_yellow.biotite_bricks_slab": "Biotite Bricks Slab",
-  "block.project_yellow.biotite_bricks_stairs": "Biotite Bricks Stairs",
-  "block.project_yellow.biotite_bricks_wall": "Biotite Bricks Wall",
+  "block.project_yellow.biotite_brick_slab": "Biotite Brick Slab",
+  "block.project_yellow.biotite_brick_stairs": "Biotite Brick Stairs",
+  "block.project_yellow.biotite_brick_wall": "Biotite Brick Wall",
 
   "block.project_yellow.cobbled_biotite": "Cobbled Biotite",
   "block.project_yellow.cobbled_biotite_slab": "Cobbled Biotite Slab",
@@ -96,9 +96,9 @@
   "block.project_yellow.marble_wall": "Marble Wall",
 
   "block.project_yellow.marble_bricks": "Marble Bricks",
-  "block.project_yellow.marble_bricks_slab": "Marble Bricks Slab",
-  "block.project_yellow.marble_bricks_stairs": "Marble Bricks Stairs",
-  "block.project_yellow.marble_bricks_wall": "Marble Bricks Wall",
+  "block.project_yellow.marble_brick_slab": "Marble Brick Slab",
+  "block.project_yellow.marble_brick_stairs": "Marble Brick Stairs",
+  "block.project_yellow.marble_brick_wall": "Marble Brick Wall",
 
   "block.project_yellow.cobbled_marble": "Cobbled Marble",
   "block.project_yellow.cobbled_marble_slab": "Cobbled Marble Slab",

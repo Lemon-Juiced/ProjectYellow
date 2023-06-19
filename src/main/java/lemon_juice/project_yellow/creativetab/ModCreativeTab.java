@@ -104,9 +104,9 @@ public class ModCreativeTab {
             event.accept(ModBlocks.BIOTITE_WALL.get());
 
             event.accept(ModBlocks.BIOTITE_BRICKS.get());
-            event.accept(ModBlocks.BIOTITE_BRICKS_SLAB.get());
-            event.accept(ModBlocks.BIOTITE_BRICKS_STAIRS.get());
-            event.accept(ModBlocks.BIOTITE_BRICKS_WALL.get());
+            event.accept(ModBlocks.BIOTITE_BRICK_SLAB.get());
+            event.accept(ModBlocks.BIOTITE_BRICK_STAIRS.get());
+            event.accept(ModBlocks.BIOTITE_BRICK_WALL.get());
 
             event.accept(ModBlocks.COBBLED_BIOTITE.get());
             event.accept(ModBlocks.COBBLED_BIOTITE_SLAB.get());
@@ -119,9 +119,9 @@ public class ModCreativeTab {
             event.accept(ModBlocks.MARBLE_WALL.get());
 
             event.accept(ModBlocks.MARBLE_BRICKS.get());
-            event.accept(ModBlocks.MARBLE_BRICKS_SLAB.get());
-            event.accept(ModBlocks.MARBLE_BRICKS_STAIRS.get());
-            event.accept(ModBlocks.MARBLE_BRICKS_WALL.get());
+            event.accept(ModBlocks.MARBLE_BRICK_SLAB.get());
+            event.accept(ModBlocks.MARBLE_BRICK_STAIRS.get());
+            event.accept(ModBlocks.MARBLE_BRICK_WALL.get());
 
             event.accept(ModBlocks.COBBLED_MARBLE.get());
             event.accept(ModBlocks.COBBLED_MARBLE_SLAB.get());

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "project_yellow:biotite"
-  },
-  "result": "project_yellow:biotite_bricks_wall",
-  "count": 1
-}

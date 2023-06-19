@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "project_yellow:block/marble_brick_slab"
+    },
+    "type=double": {
+      "model": "project_yellow:block/marble_bricks"
+    },
+    "type=top": {
+      "model": "project_yellow:block/marble_brick_slab_top"
+    }
+  }
+}

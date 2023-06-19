@@ -23,9 +23,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BIOTITE_WALL = registerBlock("biotite_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE.get()).forceSolidOn()));
 
     public static final RegistryObject<Block> BIOTITE_BRICKS = registerBlock("biotite_bricks", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE.get()).strength(3.5F, 6.0F)));
-    public static final RegistryObject<Block> BIOTITE_BRICKS_STAIRS = registerBlock("biotite_bricks_stairs", () ->  new StairBlock(ModBlocks.BIOTITE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(ModBlocks.BIOTITE_BRICKS.get())));
-    public static final RegistryObject<Block> BIOTITE_BRICKS_SLAB = registerBlock("biotite_bricks_slab", () ->  new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE_BRICKS.get())));
-    public static final RegistryObject<Block> BIOTITE_BRICKS_WALL = registerBlock("biotite_bricks_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE_BRICKS.get()).forceSolidOn()));
+    public static final RegistryObject<Block> BIOTITE_BRICK_STAIRS = registerBlock("biotite_brick_stairs", () ->  new StairBlock(ModBlocks.BIOTITE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(ModBlocks.BIOTITE_BRICKS.get())));
+    public static final RegistryObject<Block> BIOTITE_BRICK_SLAB = registerBlock("biotite_brick_slab", () ->  new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE_BRICKS.get())));
+    public static final RegistryObject<Block> BIOTITE_BRICK_WALL = registerBlock("biotite_brick_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE_BRICKS.get()).forceSolidOn()));
 
     public static final RegistryObject<Block> COBBLED_BIOTITE = registerBlock("cobbled_biotite", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.BIOTITE.get()).strength(3.5F, 6.0F)));
     public static final RegistryObject<Block> COBBLED_BIOTITE_STAIRS = registerBlock("cobbled_biotite_stairs", () ->  new StairBlock(ModBlocks.COBBLED_BIOTITE.get().defaultBlockState(), BlockBehaviour.Properties.copy(ModBlocks.COBBLED_BIOTITE.get())));
@@ -38,9 +38,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MARBLE_WALL = registerBlock("marble_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.MARBLE.get()).forceSolidOn()));
 
     public static final RegistryObject<Block> MARBLE_BRICKS = registerBlock("marble_bricks", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.MARBLE.get()).strength(3.5F, 6.0F)));
-    public static final RegistryObject<Block> MARBLE_BRICKS_STAIRS = registerBlock("marble_bricks_stairs", () ->  new StairBlock(ModBlocks.MARBLE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(ModBlocks.MARBLE_BRICKS.get())));
-    public static final RegistryObject<Block> MARBLE_BRICKS_SLAB = registerBlock("marble_bricks_slab", () ->  new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.MARBLE_BRICKS.get())));
-    public static final RegistryObject<Block> MARBLE_BRICKS_WALL = registerBlock("marble_bricks_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.MARBLE_BRICKS.get()).forceSolidOn()));
+    public static final RegistryObject<Block> MARBLE_BRICK_STAIRS = registerBlock("marble_brick_stairs", () ->  new StairBlock(ModBlocks.MARBLE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(ModBlocks.MARBLE_BRICKS.get())));
+    public static final RegistryObject<Block> MARBLE_BRICK_SLAB = registerBlock("marble_brick_slab", () ->  new SlabBlock(BlockBehaviour.Properties.copy(ModBlocks.MARBLE_BRICKS.get())));
+    public static final RegistryObject<Block> MARBLE_BRICK_WALL = registerBlock("marble_brick_wall", () -> new WallBlock(BlockBehaviour.Properties.copy(ModBlocks.MARBLE_BRICKS.get()).forceSolidOn()));
     
     public static final RegistryObject<Block> COBBLED_MARBLE = registerBlock("cobbled_marble", () -> new Block(BlockBehaviour.Properties.copy(ModBlocks.MARBLE.get()).strength(3.5F, 6.0F)));
     public static final RegistryObject<Block> COBBLED_MARBLE_STAIRS = registerBlock("cobbled_marble_stairs", () ->  new StairBlock(ModBlocks.COBBLED_MARBLE.get().defaultBlockState(), BlockBehaviour.Properties.copy(ModBlocks.COBBLED_MARBLE.get())));
