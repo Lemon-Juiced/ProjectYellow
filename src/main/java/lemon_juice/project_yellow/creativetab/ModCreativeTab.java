@@ -15,15 +15,23 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModCreativeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ProjectYellow.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> PROJECT_YELLOW_TAB = CREATIVE_MODE_TABS.register("project_yellow", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup.project_yellow"))
+    public static final RegistryObject<CreativeModeTab> PROJECT_YELLOW_TOOL_SETS_TAB = CREATIVE_MODE_TABS.register("project_yellow_tool_sets", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.project_yellow.tool_sets"))
             .icon(() -> new ItemStack(ModItems.ATHAME.get()))
             .build());
 
-    public static void registerTabs(BuildCreativeModeTabContentsEvent event){
-        if(event.getTab() == PROJECT_YELLOW_TAB.get()){
-            event.accept(ModItems.ATHAME.get());
+    public static final RegistryObject<CreativeModeTab> PROJECT_YELLOW_SICKLES_TAB = CREATIVE_MODE_TABS.register("project_yellow_sickles", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.project_yellow.sickles"))
+            .icon(() -> new ItemStack(ModItems.DIAMOND_SICKLE.get()))
+            .build());
 
+    public static final RegistryObject<CreativeModeTab> PROJECT_YELLOW_BUILDING_BLOCKS_TAB = CREATIVE_MODE_TABS.register("project_yellow_building_blocks", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.project_yellow.building_blocks"))
+            .icon(() -> new ItemStack(ModBlocks.MARBLE.get()))
+            .build());
+
+    public static void registerTabs(BuildCreativeModeTabContentsEvent event){
+        if(event.getTab() == PROJECT_YELLOW_TOOL_SETS_TAB.get()) {
             event.accept(ModItems.AMETHYST_SWORD.get());
             event.accept(ModItems.AMETHYST_SHOVEL.get());
             event.accept(ModItems.AMETHYST_PICKAXE.get());
@@ -79,6 +87,9 @@ public class ModCreativeTab {
             event.accept(ModItems.SAPPHIRE_LEGGINGS.get());
             event.accept(ModItems.SAPPHIRE_BOOTS.get());
 
+            event.accept(ModItems.ATHAME.get());
+
+        } else if(event.getTab() == PROJECT_YELLOW_SICKLES_TAB.get()) {
             event.accept(ModItems.WOODEN_SICKLE.get());
             event.accept(ModItems.STONE_SICKLE.get());
             event.accept(ModItems.IRON_SICKLE.get());
@@ -91,13 +102,7 @@ public class ModCreativeTab {
             event.accept(ModItems.RUBY_SICKLE.get());
             event.accept(ModItems.SAPPHIRE_SICKLE.get());
 
-            event.accept(ModBlocks.PERIDOT_ORE.get());
-            event.accept(ModBlocks.DEEPSLATE_PERIDOT_ORE.get());
-            event.accept(ModBlocks.RUBY_ORE.get());
-            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
-            event.accept(ModBlocks.SAPPHIRE_ORE.get());
-            event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
-
+        } else if(event.getTab() == PROJECT_YELLOW_BUILDING_BLOCKS_TAB.get()){
             event.accept(ModBlocks.BIOTITE.get());
             event.accept(ModBlocks.BIOTITE_SLAB.get());
             event.accept(ModBlocks.BIOTITE_STAIRS.get());
@@ -127,6 +132,13 @@ public class ModCreativeTab {
             event.accept(ModBlocks.COBBLED_MARBLE_SLAB.get());
             event.accept(ModBlocks.COBBLED_MARBLE_STAIRS.get());
             event.accept(ModBlocks.COBBLED_MARBLE_WALL.get());
+
+            event.accept(ModBlocks.PERIDOT_ORE.get());
+            event.accept(ModBlocks.DEEPSLATE_PERIDOT_ORE.get());
+            event.accept(ModBlocks.RUBY_ORE.get());
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+            event.accept(ModBlocks.SAPPHIRE_ORE.get());
+            event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
         }
     }
 

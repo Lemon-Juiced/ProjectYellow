@@ -105,7 +105,9 @@
   "block.project_yellow.cobbled_marble_stairs": "Cobbled Marble Stairs",
   "block.project_yellow.cobbled_marble_wall": "Cobbled Marble Wall",
 
-  "itemGroup.project_yellow": "Project Yellow",
+  "itemGroup.project_yellow.tool_sets": "Project Yellow: Tool Sets",
+  "itemGroup.project_yellow.sickles": "Project Yellow: Sickles",
+  "itemGroup.project_yellow.building_blocks": "Project Yellow: Building Blocks",
 
   "tooltip.project_yellow.athame": "Deals 25 Damage to Endermen"
 }
